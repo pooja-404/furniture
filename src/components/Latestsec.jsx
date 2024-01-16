@@ -68,7 +68,7 @@ const Latestsec = () => {
             <p className='font-Poppins text-lg font-normal text-[#000000] pt-2'>Lorem ipsum dolor </p>
             <div className='pt-4 flex justify-between pb-9'>
                 <p className='font-Poppins lg:text-[29px] text-[25px] font-semibold text-[#000000]'>₹1200.00</p>
-                <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins lg:text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden shadow-2xl transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins lg:text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                     <span class="relative z-10 text-nowrap  lg:p-[10px_18px] p-[8px_15px]  ">ADD TO CART</span>
                 </button>
             </div>
@@ -119,7 +119,7 @@ const Latestsec = () => {
         ]
     }
     return (
-        <div className='pt-24 overflow-hidden relative '>
+        <div className='sm:pt-24 overflow-hidden relative '>
             <div className="max-w-[1320px] mx-auto px-3 " >
                 <div className='flex items-center gap-2 mx-auto  max-lg:justify-center'>
                     <div className='h-[1px] w-[95px] bg-[#000]'></div>

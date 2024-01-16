@@ -99,7 +99,7 @@ const Storesec = () => {
         </div>
     ));
     return (
-        <div className='relative overflow-x-clip mt-24 lg:mt-0'>
+        <div className='relative overflohidden overflow-x-clip mt-24 lg:mt-0'>
             <div className='bg-[#2D39490A] pt-12 mt-9 pb-24 sec relative z-[1] '>
                 <div className='max-w-[1320px]  px-3 mx-auto'>
                     <div className='flex flex-wrap flex-row -mx-3 '>
@@ -129,7 +129,7 @@ const Storesec = () => {
                     </div>
                 </div>
             </div>
-            <div className=" xl:block hidden xl:max-w-[741px] xl:max-h-[471px] max-h-[200px] bg-[#243040] bg-gradient1 w-full h-full lg:absolute xl:bottom-[47%] bottom-[10%] right-0 -z-10 "></div>
+            <div className=" xl:block hidden xl:max-w-[741px] xl:max-h-[450px] max-h-[200px] bg-[#243040] bg-gradient1 w-full h-full lg:absolute xl:bottom-[47%] bottom-[10%] right-[-15px] -z-10 "></div>
         </div>
     )
 }

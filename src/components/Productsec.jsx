@@ -85,7 +85,7 @@ const Productsec = () => {
                 <p className='font-Poppins text-lg font-normal text-[#000000] pt-2'>Lorem ipsum dolor </p>
                 <div className='pt-4 flex justify-between pb-9'>
                     <p className='font-Poppins text-[29px] font-semibold text-[#000000]'>₹1200.00</p>
-                    <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins md:text-[20px] text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden shadow-2xl transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                    <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins md:text-[20px] text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                         <span class="relative z-10 text-nowrap p-[10px_18px] ">ADD TO CART</span>
                     </button>
                 </div>
@@ -100,9 +100,9 @@ const Productsec = () => {
                     <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal'>Shopping Store</h2>
                 </div>
                 <div className='lg:flex  lg:justify-between pt-5 sm:pt-0'>
-                    <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-[28px] font-bold max-w-[436px] lg:pt-5 max-lg:text-center'>Our Products</h2>
+                    <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-[28px] font-bold  lg:pt-5 max-lg:text-center'>Our Products</h2>
                     <div className='max-lg:flex max-lg:justify-center pt-5 lg:pt-0'>
-                        <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden shadow-2xl transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                        <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                             <span class="relative z-10 text-nowrap p-[19px_48px] ">VIEW ALL PRODUCT</span>
                         </button>
                     </div>
