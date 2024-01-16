@@ -23,7 +23,7 @@ function Woodensec() {
                     </div>
                 </div>
             </div>
-            <div className='max-w-[741px] w-full h-full max-h-[336px] bg-[#243040] lg:absolute bottom-[-75px] right-0 -z-10'></div>
+            <div className='max-w-[741px] w-full  sm:h-[336px] h-[300px] bg-[#243040] absolute bottom-[-75px] right-0 -z-10'></div>
         </div>
     )
 }

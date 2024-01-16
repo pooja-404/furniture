@@ -14,7 +14,7 @@ import Backtotop from '../components/Backtotop'
 
 function Home() {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div className='bg-[url(./assets/images/png/headerimg.webp)] bg-cover bg-center bg-no-repeat min-h-[100vh] '>
                 <Headersec />
             </div>
