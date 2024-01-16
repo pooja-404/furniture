@@ -11,21 +11,22 @@ import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      disable: "phone",
-      duration: 700,
-      easing: "ease-out-cubic",
-    });
-  }, []);
+    AOS.init(
+      {
+        once: true,
+        duration: 3000,
+      }
+    );
+  }, [])
   return (
     <div className="App">
 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<Aboutus />} />
-        <Route path='/contact' element={<Contactus/>} />
+        <Route path='/contact' element={<Contactus />} />
       </Routes>
-      
+
     </div>
   );
 }
