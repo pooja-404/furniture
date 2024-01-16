@@ -23,7 +23,7 @@ const Headersec = () => {
                 </div>
                 <div className='flex items-center'>
                     <ul
-                        className={`gap-[55px] flex mobileView items-center duration-700 pr-9 ${show ? "right-[-100%]" : "right-0"
+                        className={`gap-[55px] flex mobileView items-center duration-700 lg:pr-9 ${show ? "right-[-100%]" : "right-0"
                             }`}
                     >
                         <li >

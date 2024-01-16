@@ -75,7 +75,7 @@ function Footersec() {
                     </div>
                     <div className='md:w-6/12 w-full px-3 pt-7 lg:pt-0' data-aos="fade-down-left" >
                         <div className='flex flex-wrap flex-row -mx-3'>
-                            <div className='xl:w-4/12 sm:w-4/12 w-1/2  pr-3 pt-7 lg:pt-0 '>
+                            <div className='xl:w-4/12 sm:w-4/12 w-1/2  pr-3 pt-7 lg:pt-0 px-3 '>
                                 <h2 className='text-white font-Roboto font-medium text-sm  relative after:absolute  after:h-[1px] hover:after:absolute after:bottom-[-5px] after:w-[80%] after:left-0  after:bg-[#BD7D41]'>ABOUT STORE</h2>
                                 <ul>
                                     <li className='pt-3'><a href="" className='text-white text-sm font-normal font-Roboto  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#BD7D41] '>Home</a></li>
@@ -85,7 +85,7 @@ function Footersec() {
                                     <li className='pt-2'><a href="" className='text-white text-sm font-normal font-Roboto  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#BD7D41] '>Log In</a></li>
                                 </ul>
                             </div>
-                            <div className='xl:w-4/12 sm:w-4/12 w-1/2 pr-3  pt-7 lg:pt-0 '>
+                            <div className='xl:w-4/12 sm:w-4/12 w-1/2 pr-3  pt-7 lg:pt-0 px-3 '>
                                 <h2 className='text-white font-Roboto font-medium text-sm  relative after:absolute  after:h-[1px] hover:after:absolute after:bottom-[-5px] after:w-[80%] after:left-0  after:bg-[#BD7D41]'>BRANDS</h2>
                                 <ul className='pl-0'>
                                     <li className='pt-3'><a href="" className='text-white text-sm font-normal font-Roboto  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#BD7D41] '>Album</a></li>
@@ -96,7 +96,7 @@ function Footersec() {
 
                                 </ul>
                             </div>
-                            <div className='xl:w-4/12 sm:w-4/12 w-1/2 pr-3 pt-7 lg:pt-0  '>
+                            <div className='xl:w-4/12 sm:w-4/12 w-1/2 pr-3 pt-7 lg:pt-0 px-3  '>
                                 <h2 className='text-white font-Roboto font-medium text-sm  relative after:absolute  after:h-[1px] hover:after:absolute after:bottom-[-5px] after:w-[80%] after:left-0  after:bg-[#BD7D41]'>CATEGORIES</h2>
                                 <ul className='pl-0'>
                                     <li className='pt-3'><a href="" className='text-white text-sm font-normal font-Roboto  relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-7px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[#BD7D41] '>Single</a></li>
