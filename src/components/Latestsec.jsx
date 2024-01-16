@@ -53,7 +53,7 @@ const productcard = [
 ];
 const Latestsec = () => {
     const list = productcard.map((productcard) => (
-        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 mx-3  " data-aos="flip-down" >
+        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 mx-3  z-1 mb-24" data-aos="flip-down" >
             <img src={productcard.img} alt="img" className='w-full' />
             <div className='flex justify-between pt-4'>
                 <p className='font-Poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
@@ -68,7 +68,7 @@ const Latestsec = () => {
             <p className='font-Poppins text-lg font-normal text-[#000000] pt-2'>Lorem ipsum dolor </p>
             <div className='pt-4 flex justify-between pb-9'>
                 <p className='font-Poppins lg:text-[29px] text-[25px] font-semibold text-[#000000]'>₹1200.00</p>
-                <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins sm:text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden shadow-2xl transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins lg:text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden shadow-2xl transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                     <span class="relative z-10 text-nowrap  lg:p-[10px_18px] p-[8px_15px]  ">ADD TO CART</span>
                 </button>
             </div>
@@ -119,13 +119,13 @@ const Latestsec = () => {
         ]
     }
     return (
-        <div className='py-24 overflow-hidden relative '>
+        <div className='pt-24 overflow-hidden relative '>
             <div className="max-w-[1320px] mx-auto px-3 " >
-                <div className='flex items-center gap-2 mx-auto'>
+                <div className='flex items-center gap-2 mx-auto  max-lg:justify-center'>
                     <div className='h-[1px] w-[95px] bg-[#000]'></div>
                     <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal '>Shopping Store</h2>
                 </div>
-                <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold max-w-[436px] pt-5'>Latest Deal</h2>
+                <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold  pt-5 max-lg:text-center'>Latest Deal</h2>
                 <Slider ref={arrowbtn} {...settings}>
                     {list}
                 </Slider>

@@ -40,13 +40,13 @@ const Testimonial = () => {
   return (
     <div className="overflow-hidden">
       <div className="max-w-[1341px] px-3 mx-auto pt-[55px] pb-[109px]" data-aos="zoom-in-up">
-        <span className="flex items-center gap-2">
+        <span className="flex items-center gap-2  max-lg:justify-center">
           <hr className="max-w-[96px] w-full h-[1px] bg-[#000000] border-t-[unset]" />
           <p className="text-[#BD7D41] font-Poppins text-lg sm:text-xl text-center font-normal leading-normal">
             Customer Says
           </p>
         </span>
-        <h2 className="text-[#243040] max-w-[436px]  font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6">
+        <h2 className="text-[#243040] max-w-[436px]  font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6  max-lg:text-center">
           Testimonial
         </h2>
         <div className="pt-[50px]">
