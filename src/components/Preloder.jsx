@@ -16,7 +16,7 @@ const Preloder = () => {
         }
     }
     return (
-        <div>
+        <>
             {loder ? (
                 <section
                     style={{ zIndex: "999999999" }}
@@ -31,7 +31,7 @@ const Preloder = () => {
             ) : (
                 ""
             )}
-        </div>
+        </>
     )
 }
 

@@ -22,8 +22,7 @@ const Backtotop = () => {
     window.addEventListener("scroll", toggleVisible);
     return (
         <div className="overflow-hidden"> 
-            <button
-                className="group  flex justify-center items-center p-2 w-[70px] h-[65px] bg-[#0109 2A]  fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300 translate-y-[0%] animate-bounce overflow-hidden "
+            <button className="group  flex justify-center items-center p-2 w-[70px] h-[65px] bg-[#0109 2A]  fixed right-[1.7%] bottom-[10px] z-30 transition-all ease-linear duration-300 translate-y-[0%] animate-bounce overflow-hidden "
                 onClick={scrollToTop}
                 style={{
                     display: visible ? "flex " : "none",

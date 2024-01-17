@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cardbgsec() {
     return (
-        <div>
+        <>
             <div className="max-w-[1320px] px-3 mx-auto  md:pb-24">
                 <div className='flex max-lg:flex-wrap flex-row gap-5 justify-center -mx-3'>
                     <div className='lg:w-1/2 w-full px-3' data-aos="flip-down-right">
@@ -37,7 +37,7 @@ function Cardbgsec() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
