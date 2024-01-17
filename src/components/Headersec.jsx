@@ -13,7 +13,7 @@ const Headersec = () => {
         }
     }
     return (
-        <div className='max-w-[1320px] mx-auto px-3'>
+        <div className='max-w-[1341px] mx-auto px-3'>
             <div className="flex py-[15px] justify-between items-center ">
                 <div className="flex items-center cursor-pointer">
                     <img src={logo} alt="" />
