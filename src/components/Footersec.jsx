@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/images/png/logo.png'
+import logo from '../assets/images/png/logo.webp'
 const pooja = new Date();
 const year = pooja.getFullYear();
 

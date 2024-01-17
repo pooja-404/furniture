@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/images/png/logo.png'
+import logo from '../assets/images/png/logo.webp'
 import { Link } from 'react-router-dom';
 const Headersec = () => {
     const [show, setshow] = useState(true);
