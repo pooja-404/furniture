@@ -39,7 +39,7 @@ const Testimonial = () => {
   const [nav2, setNav2] = useState();
   return (
     <div className="overflow-hidden">
-      <div className="max-w-[1341px] px-3 mx-auto pt-[55px] pb-[109px]" data-aos="zoom-in-up">
+      <div className="max-w-[1320px] px-3 mx-auto pt-[55px] pb-[109px]" data-aos="zoom-in-up">
         <span className="flex items-center gap-2  max-lg:justify-center">
           <hr className="max-w-[96px] w-full h-[1px] bg-[#000000] border-t-[unset]" />
           <p className="text-[#BD7D41] font-Poppins text-lg sm:text-xl text-center font-normal leading-normal">
