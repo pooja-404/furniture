@@ -46,7 +46,7 @@ const Testimonial = () => {
             Customer Says
           </p>
         </span>
-        <h2 className="text-[#243040] max-w-[436px]  font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6  max-lg:text-center">
+        <h2 className="text-[#243040]   font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6  max-lg:text-center">
           Testimonial
         </h2>
         <div className="pt-[50px]">

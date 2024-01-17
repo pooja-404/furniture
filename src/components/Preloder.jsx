@@ -6,7 +6,7 @@ const Preloder = () => {
     useEffect(() => {
         setTimeout(() => {
             setloader(false);
-        }, 3500);
+        }, 2000);
     }, []);
     {
         if (loder === true) {

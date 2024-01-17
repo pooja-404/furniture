@@ -3,7 +3,7 @@ import sofa from '../assets/images/png/sofa.png'
 
 function Woodensec() {
     return (
-        <div className='bg-[#2D39490A] my-16 pt-24 pb-9 relative overflow-hidden'>
+        <div className='bg-[#2D39490A] my-16 sm:pt-24 pt-9 pb-9 relative overflow-hidden'>
             <div className="max-w-[1140px] px-3 mx-auto">
                 <div className='flex flex-wrap flex-row -mx-3  '>
                     <div className='lg:w-4/12  w-full  px-3 relative z-[1]' data-aos="zoom-in-right">

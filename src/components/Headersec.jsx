@@ -27,17 +27,17 @@ const Headersec = () => {
                             }`}
                     >
                         <li >
-                            <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-bold hover:webkitstroke webkitstroke cursor-pointer "> HOME</Link>
+                            <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer "> HOME</Link>
                         </li>
                         <li>
-                            <Link to='/about' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-bold hover:webkitstroke webkitstroke cursor-pointer ">
+                            <Link to='/about' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer ">
                                 ABOUT US</Link>
                         </li>
-                        <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-bold hover:webkitstroke webkitstroke cursor-pointer ">
+                        <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer ">
                             SHOP
                         </li>
                         <li >
-                            <Link to='contact' className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-bold hover:webkitstroke webkitstroke cursor-pointer "> CONTACT US</Link>
+                            <Link to='contact' className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer "> CONTACT US</Link>
                         </li>
 
                     </ul>
@@ -87,8 +87,8 @@ const Headersec = () => {
                     </label>
                 </div>
             </div>
-            <div className="max-w-[1320px] px-3 mx-auto pb-5 flex items-center justify-center flex-col" data-aos="zoom-in">
-                <h2 className='text-white font-Poppins sm:text-[48px] text-[40px] sm:text-5xl font-bold text-center pt-24 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
+            <div className="max-w-[1320px] px-3 mx-auto pb-5 flex items-center justify-center flex-col" data-aos="zoom-in" data-aos-delay="1000">
+                <h2 className='text-white font-Poppins sm:text-[48px] text-[40px] sm:text-5xl font-bold text-center pt-28 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
                 <p className='text-white text-xl font-Poppins font-normal text-center pt-2 pb-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
                 <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins sm:text-xl text-[15px] mt-12  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                     <span class="relative z-10 text-nowrap p-[19px_48px_19px_48px] ">SHOP NOW</span>

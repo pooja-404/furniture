@@ -8,7 +8,7 @@ function Welcomesec() {
                 <div className='flex flex-wrap flex-row -mx-3 justify-center  '>
                     <div className='lg:w-2/4 px-3 relative z-[1]' data-aos="fade-left">
                         <div className='relative'>
-                            <img src={chair} alt="chair" className='z-[1] w-full shadow-[3px_8px_26px_ 0px_#0000001F]' />
+                            <img src={chair} alt="chair" className='z-[1] max-lg:w-full shadow-[3px_8px_26px_ 0px_#0000001F]' />
                         </div>
                         <div className='w-[416px] h-[336px] bg-gradient1 sm:block hidden sm:absolute sm:top-[-31px] sm:left-[-27px] -z-10'></div>
                     </div>
