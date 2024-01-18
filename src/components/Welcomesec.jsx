@@ -3,16 +3,16 @@ import chair from '../assets/images/png/chair.webp'
 
 function Welcomesec() {
     return (
-        <div className='sm:pt-24 pt-16  lg:pb-44'>
+        <div className='pt-24 lg:pb-44'>
             <div className="max-w-[1320px] px-3 mx-auto">
                 <div className='flex flex-wrap flex-row -mx-3 justify-center  '>
                     <div className='lg:w-2/4 px-3 relative z-[1]' data-aos="fade-left">
                         <div className='relative'>
-                            <img src={chair} alt="chair" className='z-[1] max-lg:w-full shadow-[3px_8px_26px_ 0px_#0000001F]' />
+                            <img src={chair} alt="chair" className='z-[1] max-lg:w-full shadow-[3px_8px_26px_0px_#0000001F]' />
                         </div>
                         <div className='w-[416px] h-[336px] bg-gradient1  absolute top-[-31px] left-[-27px] -z-10'></div>
                     </div>
-                    <div className='lg:w-2/4  w-full  px-3 pt-5 lg:pt-0' data-aos="fade-right">
+                    <div className='lg:w-2/4  w-full  px-3 pt-12 lg:pt-0' data-aos="fade-right">
                         <div className='flex items-center gap-2 max-lg:justify-center'>
                             <div className='h-[1px] w-[95px] bg-[#000]'></div>
                             <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal max-lg:text-center'>Welcome Our Story</h2>

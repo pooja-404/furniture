@@ -9,6 +9,15 @@ import testimg4 from "../assets/images/png/testimg3.png";
 import testimg5 from "../assets/images/png/testimg4.png";
 import testimg6 from "../assets/images/png/textimg5.png";
 import testimg7 from "../assets/images/png/testimg6.png";
+import slider1 from '../assets/images/png/slider1.png'
+import slider2 from '../assets/images/png/slider2.png'
+import slider3 from '../assets/images/png/slider3.png'
+import slider4 from '../assets/images/png/slider4.png'
+import slider5 from '../assets/images/png/slider5.png'
+import slider6 from '../assets/images/png/slider6.png'
+import slider7 from '../assets/images/png/slider7.png'
+
+
 const Testimonial = () => {
   var settings = {
     centerMode: true,
@@ -46,7 +55,7 @@ const Testimonial = () => {
             Customer Says
           </p>
         </span>
-        <h2 className="text-[#243040]   font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6  max-lg:text-center">
+        <h2 className="text-[#243040] font-Poppins text-2xl  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6  max-lg:text-center">
           Testimonial
         </h2>
         <div className="pt-[50px]">
@@ -63,56 +72,93 @@ const Testimonial = () => {
               <img
                 src={testimg1}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[264px] "
+                className="md:!block !hidden fl ex w-full justify-center items-center max-w-[264px] "
+              />
+              <img
+                src={slider1}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[264px] "
               />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg2}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[164px] "
-              />
+                className=" md:!block !hidden f lex w-full justify-center items-center max-w-[164px] " />
+              <img
+                src={slider2}
+                alt="custumer"
+                className=" md:!hidden block  f lex  justify-center items-center max-w-[258px]  " />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg3}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[148px] "
+                className=" md:!block !hidden  f lex w-full justify-center items-center max-w-[148px] "
               />
+              <img
+                src={slider3}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[258px]  " />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg4}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[260px] "
+                className=" md:!block !hidden f lex w-full justify-center items-center max-w-[260px] "
+              />
+              <img
+                src={slider4}
+                alt="custumer"
+                className="  md:!hidden block f lex  justify-center items-center  max-w-[258px]  "
               />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg5}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[258px] "
+                className="  md:!block !hidden f lex  justify-center items-center max-w-[258px] "
+              />
+              <img
+                src={slider5}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[258px]  "
               />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg6}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[193px] "
+                className=" md:!block !hidden f lex  justify-center items-center max-w-[193px] "
+              />
+              <img
+                src={slider6}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[258px]  "
               />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg7}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[181px] "
+                className="md:!block !hidden f lex w-full justify-center items-center max-w-[181px] "
+              />
+              <img
+                src={slider7}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[258px]   "
               />
             </div>
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg5}
                 alt="custumer"
-                className="flex w-full justify-center items-center max-w-[258px] "
+                className="md:!block !hidden f lex w-full justify-center items-center max-w-[258px] "
+              />
+              <img
+                src={slider5}
+                alt="custumer"
+                className=" md:!hidden block f lex  justify-center items-center max-w-[258px]   "
               />
             </div>
           </Slider>
@@ -128,7 +174,7 @@ const Testimonial = () => {
           >
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-poppins pt-9 md:pt-0">
                   Treepi Shoty
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
@@ -160,7 +206,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Bessie Cooper
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
@@ -176,7 +222,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-poppins text-sm font-light leading-noraml">
@@ -192,7 +238,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Treepi Shoty
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
@@ -208,7 +254,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
@@ -224,7 +270,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Treepi Shoty
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
@@ -240,7 +286,7 @@ const Testimonial = () => {
             </div>
             <div>
               <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">

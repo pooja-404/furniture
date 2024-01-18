@@ -69,8 +69,8 @@ const productcard = [
 ];
 const Productsec = () => {
     const list = productcard.map((productcard, p) => (
-        <div className=" lg:w-4/12 md:w-1/2 sm:w-1/2 w-full  px-3 " data-aos="flip-up" key={p} >
-            <div className=" lg:max-w-[422px] w-full bg-white p-[21px] hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 " >
+        <div className=" xl:w-4/12 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full  px-3 " data-aos="flip-up" key={p} >
+            <div className=" lg:w-[422px] w-full bg-white p-[21px] hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 " >
                 <img src={productcard.img} alt="img" className='w-full' />
                 <div className='flex justify-between pt-4 items-center'>
                     <p className='font-Poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
