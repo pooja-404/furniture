@@ -84,7 +84,7 @@ const Latestsec = () => {
         arrow: false,
         responsive: [
             {
-                breakpoint: 1440,
+                breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -94,9 +94,19 @@ const Latestsec = () => {
                     arrow: false,
                 }
             },
-
             {
-                breakpoint: 766,
+                breakpoint: 838,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    CenterMode: true,
+                    arrow: false,
+                }
+            },
+            {
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
