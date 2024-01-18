@@ -39,7 +39,7 @@ const Testimonial = () => {
   const [nav2, setNav2] = useState();
   return (
     <div className="overflow-hidden">
-      <div className="max-w-[1320px] px-3 mx-auto pt-[55px] pb-[109px]" data-aos="zoom-in-up">
+      <div className="max-w-[1320px] px-3 mx-auto pt-[55px] pb-24 lg:pb-[109px]" data-aos="zoom-in-up">
         <span className="flex items-center gap-2  max-lg:justify-center">
           <hr className="max-w-[96px] w-full h-[1px] bg-[#000000] border-t-[unset]" />
           <p className="text-[#BD7D41] font-Poppins text-lg sm:text-xl text-center font-normal leading-normal">
@@ -145,7 +145,7 @@ const Testimonial = () => {
             <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Treepi Shoty
+                  Esther Howard
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
                   Developer
@@ -161,7 +161,7 @@ const Testimonial = () => {
             <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Treepi Shoty
+                  Bessie Cooper
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
                   Professor
@@ -177,7 +177,7 @@ const Testimonial = () => {
             <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Treepi Shoty
+                  Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-poppins text-sm font-light leading-noraml">
                   Teacher
@@ -209,7 +209,7 @@ const Testimonial = () => {
             <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Treepi Shoty
+                  Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
                   Professor
@@ -241,7 +241,7 @@ const Testimonial = () => {
             <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Treepi Shoty
+                  Cameron Williamson
                 </h3>
                 <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
                   Developer

@@ -14,7 +14,7 @@ function Woodensec() {
                         <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold lg:max-w-[436px] pt-5 sm:leading-normal  max-lg:text-center'>Wooden Sofa Starts From ₹1200.00</h2>
                         <div className=' max-lg:flex max-lg:justify-center'>
                             <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins sm:text-xl text-[15px] mt-12  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
-                                <span class="relative z-10 text-nowrap p-[19px_48px_19px_48px] ">SHOP NOW</span>
+                                <span className="relative z-10 text-nowrap p-[19px_48px_19px_48px] ">SHOP NOW</span>
                             </button>
                         </div>
                     </div>

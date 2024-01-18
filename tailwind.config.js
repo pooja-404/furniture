@@ -18,7 +18,11 @@ module.exports = {
       },
       backgroundSize: {
         'size': '100% 100%'
-      }
+      },
+      animation: {
+       'bounce-slow':'bounce 3s linear'
+     }
+
     },
   },
   plugins: [],

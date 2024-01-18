@@ -52,8 +52,8 @@ const productcard = [
 
 ];
 const Latestsec = () => {
-    const list = productcard.map((productcard) => (
-        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 mx-3  z-1 mb-24" data-aos="flip-down" >
+    const list = productcard.map((productcard, p) => (
+        <div className=" lg:max-w-[422px] w-full bg-white p-[21px]  hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 mx-3  z-1 mb-24" data-aos="flip-down" key={p} >
             <img src={productcard.img} alt="img" className='w-full' />
             <div className='flex justify-between pt-4'>
                 <p className='font-Poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
@@ -69,7 +69,7 @@ const Latestsec = () => {
             <div className='pt-4 flex justify-between pb-9'>
                 <p className='font-Poppins lg:text-[29px] text-[25px] font-semibold text-[#000000]'>₹1200.00</p>
                 <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins xl:text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
-                    <span class="relative z-10 text-nowrap  lg:p-[10px_18px] p-[8px_15px]  ">ADD TO CART</span>
+                    <span className="relative z-10 text-nowrap  lg:p-[10px_18px] p-[8px_15px]  ">ADD TO CART</span>
                 </button>
             </div>
         </div>
@@ -96,12 +96,12 @@ const Latestsec = () => {
             },
 
             {
-                breakpoint: 968,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     CenterMode: true,
-                    dots: false,
+                    dots: true,
                     arrow: false,
 
                 }
@@ -112,7 +112,7 @@ const Latestsec = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     CenterMode: true,
-                    dots: false,
+                    dots: true,
                     arrow: false,
                 }
             }
@@ -130,13 +130,13 @@ const Latestsec = () => {
                     {list}
                 </Slider>
             </div>
-            <div className=" gap-4 mt-8 justify-center ">
-                <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-full w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] flex items-center justify-center shadow-[2px_7px_16px_0px_#00000014] absolute left-[10%] xl:top-[46%] top-[85%] hover:bg-[#BD7D41] duration-300 " >
+            <div className=" gap-4 mt-8 justify-center  ">
+                <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-full w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] md:flex items-center justify-center shadow-[2px_7px_16px_0px_#00000014] md:absolute left-[10%] xl:top-[46%] top-[85%] hover:bg-[#FFD135] hover:fill-white duration-300 md:block hidden  " >
                     <svg width="42" height="16" viewBox="0 0 42 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41422 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM42 9H1V7H42V9Z" fill="black" />
                     </svg>
                 </button>
-                <button onClick={() => arrowbtn?.current?.slickNext()} className="rounded-full w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] flex items-center justify-center shadow-[2px_7px_16px_0px_#00000014] absolute right-[10%] xl:top-[46%] top-[85%] hover:bg-[#BD7D41] duration-300 " >
+                <button onClick={() => arrowbtn?.current?.slickNext()} className="rounded-full w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] md:flex items-center justify-center shadow-[2px_7px_16px_0px_#00000014] md:absolute right-[10%] xl:top-[46%] top-[85%] hover:bg-[#FFD135] hover:fill-white duration-300 md:block hidden  " >
                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="16" viewBox="0 0 42 16" fill="none">
                         <path d="M41.7071 8.70711C42.0976 8.31658 42.0976 7.68342 41.7071 7.29289L35.3431 0.928932C34.9526 0.538408 34.3195 0.538408 33.9289 0.928932C33.5384 1.31946 33.5384 1.95262 33.9289 2.34315L39.5858 8L33.9289 13.6569C33.5384 14.0474 33.5384 14.6805 33.9289 15.0711C34.3195 15.4616 34.9526 15.4616 35.3431 15.0711L41.7071 8.70711ZM0 9H41V7H0V9Z" fill="black" />
                     </svg>

@@ -26,17 +26,17 @@ const Headersec = () => {
                         className={`gap-[55px] flex mobileView items-center duration-700 lg:pr-9 ${show ? "right-[-100%]" : "right-0"
                             }`}
                     >
-                        <li >
+                        <li onClick={nav}>
                             <Link to='/' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer "> HOME</Link>
                         </li>
-                        <li>
+                        <li onClick={nav}>
                             <Link to='/about' className="text-white relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer ">
                                 ABOUT US</Link>
                         </li>
-                        <li className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer ">
+                        <li onClick={nav} className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer ">
                             SHOP
                         </li>
-                        <li >
+                        <li onClick={nav} >
                             <Link to='contact' className="text-white  relative after:absolute after:w-0 after:h-[3px] after:hover:left-0  after:bg-[#BD7D41] transition-all after:left-[50%] after:duration-700 hover:after:w-full after:bottom-[-12px] font-Roboto text-lg font-normal hover:webkitstroke webkitstroke cursor-pointer "> CONTACT US</Link>
                         </li>
 
@@ -91,7 +91,7 @@ const Headersec = () => {
                 <h2 className='text-white font-Poppins sm:text-[48px] text-[40px] sm:text-5xl font-bold text-center pt-28 capitalize max-w-[908px] mx-auto sm:leading-normal'>Awesome Design Best Furniture For Your Interior</h2>
                 <p className='text-white text-xl font-Poppins font-normal text-center pt-2 pb-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus </p>
                 <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins sm:text-xl text-[15px] mt-12  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
-                    <span class="relative z-10 text-nowrap p-[19px_48px_19px_48px] ">SHOP NOW</span>
+                    <span className="relative z-10 text-nowrap p-[19px_48px_19px_48px] ">SHOP NOW</span>
                 </button>
             </div>
         </div>

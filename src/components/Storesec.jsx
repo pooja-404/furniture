@@ -71,8 +71,8 @@ const Storesec = () => {
 
     };
     const arrowbtn = React.useRef(null);
-    const cards = carddata.map((carddata) => (
-        <div className='pl-[18px] '>
+    const cards = carddata.map((carddata, p) => (
+        <div className='pl-[18px] ' key={p}>
             <div className="cards max-w-[295px] p-[15px_18px_22px_18px] bg-white shadow-[2px_7px_28px_0px_0000000D]  mt-5">
                 <img src={carddata.img} alt="img" className='w-full' />
                 <div className=" flex justify-between items-center pt-3 ">
@@ -104,19 +104,19 @@ const Storesec = () => {
                 <div className='max-w-[1320px]  px-3 mx-auto'>
                     <div className='flex flex-wrap flex-row -mx-3 '>
                         <div className='md:w-5/12 w-full px-3 z-[2]' data-aos="fade-up-right">
-                            <div className='flex items-center gap-2 max-lg:justify-center'>
+                            <div className='flex items-center gap-2 max-md:justify-center'>
                                 <div className='h-[1px] w-[95px] bg-[#000]'></div>
-                                <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal max-lg:text-center'>Shopping Store</h2>
+                                <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal max-md:text-center'>Shopping Store</h2>
                             </div>
-                            <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold lg:max-w-[436px] pt-6 sm:leading-normal max-lg:text-center'>Buy trending furniture Products.</h2>
-                            <p className='font-Poppins font-normal text-lg text-[#000000B2] lg:max-w-[422px] pt-5 max-lg:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta</p>
-                            <div className="flex gap-8 mt-8 relative justify-center">
-                                <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-[10px] w-[41px] h-[41px] flex items-center justify-center bg-white lg:absolute left-[65px] top-2 hover:bg-[#BD7D41] duration-300 " >
+                            <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold lg:max-w-[436px] pt-6 sm:leading-normal max-md:text-center'>Buy trending furniture Products.</h2>
+                            <p className='font-Poppins font-normal text-lg text-[#000000B2] lg:max-w-[422px] pt-5 max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta</p>
+                            <div className="max-lg:flex gap-8 mt-8 relative max-md:justify-center">
+                                <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-[10px] w-[41px] h-[41px] flex items-center justify-center bg-white lg:absolute left-[65px] top-2 hover:bg-[#FFD135] duration-300 " >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="8" viewBox="0 0 21 8" fill="none">
                                         <path d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z" fill="black" />
                                     </svg>
                                 </button>
-                                <button onClick={() => arrowbtn?.current?.slickNext()} className="rounded-[10px] w-[41px] h-[41px] flex items-center justify-center bg-white lg:absolute left-[2px] top-2 hover:bg-[#BD7D41] duration-300" >
+                                <button onClick={() => arrowbtn?.current?.slickNext()} className="rounded-[10px] w-[41px] h-[41px] flex items-center justify-center bg-white lg:absolute left-[2px] top-2 hover:bg-[#FFD135] duration-300" >
                                     <svg width="21" height="8" viewBox="0 0 21 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.646446 4.35355C0.451185 4.15829 0.451185 3.84171 0.646446 3.64645L3.82843 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.7308 0.659728 4.7308 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.7308 7.02369 4.7308 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82843 7.53553L0.646446 4.35355ZM21 4.5H1V3.5H21V4.5Z" fill="black" />
                                     </svg>

@@ -5,6 +5,16 @@
 .webkitstroke:hover {
     -webkit-text-stroke: 0.7px #fff;
 }
+
 /* *{
     outline: 1px solid red
 } */
+.slick-dots {
+    position: absolute !important;
+    bottom: 34px !important;
+}
+
+.slick-dots {
+    position: relative;
+    
+}
