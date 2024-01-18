@@ -63,11 +63,13 @@ const Storesec = () => {
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1200,
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
-        variableWidth: true
+        variableWidth: true,
+        autoplay: true,
+
 
     };
     const arrowbtn = React.useRef(null);
@@ -99,17 +101,17 @@ const Storesec = () => {
         </div>
     ));
     return (
-        <div className='relative overflohidden overflow-x-clip mt-24 lg:mt-0'>
+        <div className='relative overflohidden overflow-x-clip md:mt-24 lg:mt-0'>
             <div className='bg-[#2D39490A] pt-12 mt-9 pb-24 sec relative z-[1] '>
                 <div className='max-w-[1320px]  px-3 mx-auto'>
                     <div className='flex flex-wrap flex-row -mx-3 '>
-                        <div className='md:w-5/12 w-full px-3 z-[2]' data-aos="fade-up-right">
+                        <div className='md:w-5/12 w-full px-3 z-[2]'>
                             <div className='flex items-center gap-2 max-md:justify-center'>
                                 <div className='h-[1px] w-[95px] bg-[#000]'></div>
-                                <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal max-md:text-center'>Shopping Store</h2>
+                                <h2 className='text-[#BD7D41] font-Poppins text-xl font-normal max-md:text-center' data-aos="fade-up-right">Shopping Store</h2>
                             </div>
-                            <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold lg:max-w-[436px] pt-6 sm:leading-normal max-md:text-center'>Buy trending furniture Products.</h2>
-                            <p className='font-Poppins font-normal text-lg text-[#000000B2] lg:max-w-[422px] pt-5 max-md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus, urna at pulvinar porta</p>
+                            <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-2xl font-bold lg:max-w-[436px] pt-6 sm:leading-normal max-md:text-center' data-aos="fade-up-right">Buy trending furniture Products.</h2>
+                            <p className='font-Poppins font-normal text-lg text-[#000000B2] lg:max-w-[422px] pt-5 max-md:text-center' data-aos="fade-up-right">Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. Sed faucibus, urna at pulvinar <br /> porta</p>
                             <div className="max-lg:flex gap-8 mt-8 relative max-md:justify-center">
                                 <button onClick={() => arrowbtn?.current?.slickPrev()} className="rounded-[10px] w-[41px] h-[41px] flex items-center justify-center bg-white lg:absolute left-[65px] top-2 hover:bg-[#FFD135] duration-300 " >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="21" height="8" viewBox="0 0 21 8" fill="none">
@@ -123,7 +125,7 @@ const Storesec = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="md:w-7/12 w-full  px-3 flex flex-col z-[1] pt-12 lg:pt-0" data-aos="fade-up-left">
+                        <div className="md:w-7/12 w-full  px-3 flex flex-col z-[1] pt-12 lg:pt-0">
                             <Slider ref={arrowbtn} {...settings}>{cards}</Slider>
                         </div>
                     </div>

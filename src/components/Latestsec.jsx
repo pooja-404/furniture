@@ -96,7 +96,7 @@ const Latestsec = () => {
             },
 
             {
-                breakpoint: 768,
+                breakpoint: 766,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
