@@ -26,8 +26,7 @@ const Backtotop = () => {
                 onClick={scrollToTop}
                 style={{
                     display: visible ? "flex " : "none",
-                }}
-            >
+                }}>
                 <div className="h-[50px] w-[180%]  rounded-[10px] cursor-pointer scroll-smooth transform-[all] transform-[.3s] transform-[linear] bg-gradient1  hover:shadow-[6px_13px_38px_0px_#0000001F]  flex justify-center items-center">
                     <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 0.879028L0.938995 7.93903L3.061 10.061L8 5.12103L12.939 10.061L15.061 7.93903L8 0.879028Z" fill="white" />

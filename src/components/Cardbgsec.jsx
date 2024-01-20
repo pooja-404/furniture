@@ -1,12 +1,11 @@
-import React from 'react'
-
+import React from 'react' 
 function Cardbgsec() {
     return (
         <>
             <div className="max-w-[1320px] px-3 mx-auto  md:pb-24 max-lg:pt-5">
                 <div className='flex max-lg:flex-wrap flex-row gap-5 justify-center -mx-3'>
                     <div className='lg:w-1/2 w-full px-3' data-aos="fade-left" data-aos-delay="1000">
-                        <div className=' bg-[url(./assets/images/png/chairbg.png)] bg-no-repeat bg-center lg:bg-size bg-cover  h-[362 px] w-full   mx-auto '>
+                        <div className=' bg-[url(./assets/images/png/chairbg.webp)] bg-no-repeat bg-center lg:bg-size bg-cover  h-[362 px] w-full   mx-auto '>
                             <div className='flex items-center gap-2 pt-10'>
                                 <div className='h-[1px] w-[88px] bg-[#000]'></div>
                                 <h2 className='text-[#000000] font-Poppins text-xl font-normal'>Festival Offer</h2>
@@ -21,7 +20,7 @@ function Cardbgsec() {
                         </div>
                     </div>
                     <div className='lg:w-1/2 w-full px-3' data-aos="fade-right" data-aos-delay="1000">
-                        <div className=' bg-[url(./assets/images/png/chairbg2.png)] bg-no-repeat bg-center lg:bg-size bg-cover  h-[362 px]   w-full '>
+                        <div className=' bg-[url(./assets/images/png/chairbg2.webp)] bg-no-repeat bg-center lg:bg-size bg-cover  h-[362 px]   w-full '>
                             <div className='flex items-center gap-2 pt-10'>
                                 <div className='h-[1px] w-[88px] bg-[#000]'></div>
                                 <h2 className='text-[#000000] font-Poppins text-xl font-normal '>Festival Offer</h2>

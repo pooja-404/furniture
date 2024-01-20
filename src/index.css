@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .mobileView {
-  @apply max-lg:w-full max-lg:min-h-full max-lg:flex-col max-lg:bg-[#243040] max-lg:items-center max-lg:justify-center z-20 max-lg:fixed max-lg:top-0
+  @apply max-lg:w-full max-lg:min-h-full max-lg:flex-col max-lg:bg-[#243040] max-lg:items-center max-lg:justify-center z-20 max-lg:!fixed max-lg:!top-0
 }
 
 .sec .slick-list {

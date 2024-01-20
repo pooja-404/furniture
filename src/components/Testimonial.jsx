@@ -66,8 +66,7 @@ const Testimonial = () => {
             slidesToShow={7}
             touchMove={true}
             arrows={false}
-            ref={(slider1) => setNav1(slider1)}
-          >
+            ref={(slider1) => setNav1(slider1)} >
             <div className=" !flex justify-center  items-center text-center mx-auto">
               <img
                 src={testimg1}
@@ -173,102 +172,89 @@ const Testimonial = () => {
             dots={false}
           >
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-poppins pt-9 md:pt-0">
-                  Treepi Shoty
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
-                  Teacher
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-poppins pt-9 md:pt-0">
+                Treepi Shoty
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
+                Teacher
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
-                  Esther Howard
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
-                  Developer
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins">
+                Esther Howard
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
+                Developer
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
-                  Bessie Cooper
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
-                  Professor
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
+                Bessie Cooper
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
+                Professor
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
-                  Cameron Williamson
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-poppins text-sm font-light leading-noraml">
-                  Teacher
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
+                Cameron Williamson
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-poppins text-sm font-light leading-noraml">
+                Teacher
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
-                  Treepi Shoty
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
-                  Developer
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
+                Treepi Shoty
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
+                Developer
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
             <div>
-              <div>
-                <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
-                  Cameron Williamson
-                </h3>
-                <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
-                  Professor
-                </p>
-                <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse feugiat nunc in leo vestibulum, at congue erat
-                  accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
-                  sapien.
-                </p>
-              </div>
+              <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
+                Cameron Williamson
+              </h3>
+              <p className=" text-center text-[#4D4D4D] font-Poppins text-sm font-light leading-noraml">
+                Professor
+              </p>
+              <p className="text-center max-w-[350px] text-black font-Poppins text-sm font-light leading-normal pt-3 mx-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
             </div>
-            <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Treepi Shoty
@@ -283,8 +269,6 @@ const Testimonial = () => {
                   sapien.
                 </p>
               </div>
-            </div>
-            <div>
               <div>
                 <h3 className=" text-center text-black font-semibold text-lg leading-normal font-Poppins pt-9 md:pt-0">
                   Cameron Williamson
@@ -298,7 +282,6 @@ const Testimonial = () => {
                   accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
                   sapien.
                 </p>
-              </div>
             </div>
           </Slider>
         </div>

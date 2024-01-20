@@ -1,9 +1,11 @@
+import { useState } from 'react'
 import card1 from '../assets/images/png/card1.png'
 import card2 from '../assets/images/png/card2.png'
 import card3 from '../assets/images/png/card3.png'
 import card4 from '../assets/images/png/card4.png'
 import card5 from '../assets/images/png/card5.png'
 import card6 from '../assets/images/png/card6.png'
+
 
 const productcard = [
     {
@@ -67,10 +69,25 @@ const productcard = [
         ),
     },
 ];
+
 const Productsec = () => {
+    const [Bardata, Setbar] = useState(false);
+    const [carddata, setcardata] = useState([])
+    function sidebar(productcard) {
+        Setbar(true)
+        setcardata([...carddata, productcard])
+    }
+    function close() {
+        Setbar(false);
+    }
+    function remove(index) {
+        const google = [...carddata]
+        google.splice(index, 1)
+        setcardata(google)
+    }
     const list = productcard.map((productcard, p) => (
         <div className=" xl:w-4/12 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full  px-3 " data-aos="flip-up" key={p} >
-            <div className=" lg:w-[422px] w-full bg-white p-[21px] hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 " >
+            <div className=" xl:w-[422px] w-full bg-white p-[21px] hover:shadow-[6px_13px_38px_0px_#0000001F] mt-10 " >
                 <img src={productcard.img} alt="img" className='w-full' />
                 <div className='flex justify-between pt-4 items-center'>
                     <p className='font-Poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
@@ -85,15 +102,41 @@ const Productsec = () => {
                 <p className='font-Poppins text-lg font-normal text-[#000000] pt-2'>Lorem ipsum dolor </p>
                 <div className='pt-4 flex justify-between pb-9'>
                     <p className='font-Poppins sm:text-[29px] text-[25px] font-semibold text-[#000000]'>₹1200.00</p>
-                    <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins md:text-[20px] text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                    <button onClick={() => sidebar(productcard)} className='before:ease relative bg-[#BD7D41]  text-white font-Poppins md:text-[20px] text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
                         <span className="relative z-10 text-nowrap p-[10px_18px] ">ADD TO CART</span>
                     </button>
                 </div>
             </div>
         </div>
     ));
+    const pooja = carddata.map((productcard, index) => (
+        <div key={index} className='p-5 bg-white mt-5'>
+            <img src={productcard.img} alt="img" className='w-full' />
+            <div className='flex justify-between pt-4 items-center'>
+                <p className='font-Poppins text-xl font-medium text-[#000000]'>Single Sofa</p>
+                <div className='flex gap-1'>
+                    <span>{productcard.svg}</span>
+                    <span>{productcard.svg}</span>
+                    <span>{productcard.svg}</span>
+                    <span>{productcard.svg}</span>
+                    <span>{productcard.svg}</span>
+                </div>
+            </div>
+            <p className='font-Poppins text-lg font-normal text-[#000000] pt-2'>Lorem ipsum dolor </p>
+            <div className='pt-4 flex justify-between pb-9'>
+                <p className='font-Poppins sm:text-[29px] text-[25px] font-semibold text-[#000000]'>₹1200.00</p>
+                <button onClick={() => remove(index)} className='before:ease relative bg-[#BD7D41]  text-white font-Poppins md:text-[20px] text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
+                    <span className="relative z-10 text-nowrap p-[10px_18px] ">REMOVE CART</span>
+                </button>
+            </div>
+        </div>
+    )
+    );
     return (
         <div className='md:pt-24 pt-16'>
+            <div className={`fixed left-0 top-0 w-full max-w-[430px] transition-all bg-[#BD7D41] px-4 h-full z-20 overflow-y-auto ${Bardata ? "left-0" : "left-[-100%]"}`}>
+                <button onClick={close} className='font-bold cursor-pointer text-4xl font-Poppins text-white flex justify-end ml-auto'>x</button>{pooja}
+            </div>
             <div className="max-w-[1320px] mx-auto px-3 ">
                 <div className='flex items-center gap-2 max-lg:justify-center'>
                     <div className='h-[1px] w-[95px] bg-[#000]'></div>
@@ -103,7 +146,7 @@ const Productsec = () => {
                     <h2 className='text-[#243040] font-Poppins sm:text-[35px] text-[28px] font-bold  lg:pt-5 max-lg:text-center'>Our Products</h2>
                     <div className='max-lg:flex max-lg:justify-center pt-5 lg:pt-0'>
                         <button className='before:ease relative bg-[#BD7D41]  text-white font-Poppins text-xl text-[15px]  text-center font-semibold text-nowrap  duration-300 overflow-hidden  transition-all before:absolute  before:h-0 before:w-72 before:origin-center before:-translate-x-24 before:rotate-45 before:bg-[#243040] before:duration-300 hover:text-white hover:shadow-[6px_13px_38px_0px_#0000001F] hover:before:h-72  hover:before:w-[80rem] hover:before:-translate-y-32 flex items-center justify-center'>
-                            <span className="relative z-10 text-nowrap p-[19px_48px] ">VIEW ALL PRODUCT</span>
+                            <span className="relative z-10 text-nowrap p-[19px_48px]  ">VIEW ALL PRODUCT</span>
                         </button>
                     </div>
                 </div>

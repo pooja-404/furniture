@@ -6,8 +6,6 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
 const productcard = [
     {
         img: Latestimg1,
@@ -49,7 +47,6 @@ const productcard = [
             </>
         ),
     },
-
 ];
 const Latestsec = () => {
     const list = productcard.map((productcard, p) => (

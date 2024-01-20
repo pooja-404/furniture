@@ -2,10 +2,10 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import sliderimg1 from '../assets/images/png/sliderimg1.png'
-import sliderimg2 from '../assets/images/png/sliderimg2.png'
-import sliderimg3 from '../assets/images/png/sliderimg3.png'
-import sliderimg4 from '../assets/images/png/sliderimg4.png'
+import sliderimg1 from '../assets/images/png/sliderimg1.webp'
+import sliderimg2 from '../assets/images/png/sliderimg2.webp'
+import sliderimg3 from '../assets/images/png/sliderimg3.webp'
+import sliderimg4 from '../assets/images/png/sliderimg4.webp'
 
 const carddata = [
     {
@@ -76,7 +76,7 @@ const Storesec = () => {
             <div className="cards max-w-[295px] p-[15px_18px_22px_18px] bg-white shadow-[2px_7px_28px_0px_0000000D]  mt-5">
                 <img src={carddata.img} alt="img" className='w-full' />
                 <div className=" flex justify-between items-center pt-3 ">
-                    <p className="font-Poppins text-xl font-medium text-[#000] text-nowrap ">
+                    <p className="font-Poppins sm:text-xl text-15 font-medium text-[#000] text-nowrap ">
                         {carddata.heading}
                     </p>
                     <div className='flex gap-1'>
@@ -88,7 +88,7 @@ const Storesec = () => {
                     </div>
                 </div>
                 <div className='flex items-center gap-2 pt-4'>
-                    <p className="font-Poppins font-semibold text-[29px] text-[#000000]">
+                    <p className="font-Poppins font-semibold lg:text-[29px] text-[20px] text-[#000000]">
                         {carddata.text}
                     </p>
                     <p className="font-Poppins font-normal text-[11px] text-[#C4C4C4]">
@@ -123,7 +123,7 @@ const Storesec = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="lg:w-7/12 w-full  px-3 flex flex-col z-[1] pt-12 lg:pt-0">
+                        <div className="lg:w-7/12 w-full  px-3 flex flex-col z-[1]  lg:pt-0">
                             <Slider ref={arrowbtn} {...settings}>{cards}</Slider>
                         </div>
                     </div>

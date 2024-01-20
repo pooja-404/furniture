@@ -25,7 +25,6 @@ const Preloder = () => {
                         <div className="preloader flex gap-4  justify-center items-center h-screen duration-300 ">
                             <p className=" text-white font-Poppins font-bold md:text-[55px] text-[30px]">LOADING...</p>
                             <div className="animate-spin rounded-full md:h-16 md:w-16 w-10 h-10 border-t-4 border-[#BD7D41] border-solid"></div>
-                        {/* <p className=" text-white font-Poppins font-bold text-[48px] text-sm md:text-lg">FURNITURE...</p> */}
                             <img src={preloder} alt="img" className=" w-[25%] animate-bounce-slow object-cover " />
                         </div>
                     </div>

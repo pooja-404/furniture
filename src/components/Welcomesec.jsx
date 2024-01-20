@@ -3,7 +3,7 @@ import chair from '../assets/images/png/chair.webp'
 
 function Welcomesec() {
     return (
-        <div className='pt-24 lg:pb-44'>
+        <div className='md:pt-24 pt-16 lg:pb-44'>
             <div className="max-w-[1320px] px-3 mx-auto">
                 <div className='flex flex-wrap flex-row -mx-3 justify-center  '>
                     <div className='lg:w-2/4 px-3 relative z-[1]' data-aos="fade-left">
