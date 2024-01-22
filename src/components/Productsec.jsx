@@ -84,6 +84,9 @@ const Productsec = () => {
         const google = [...carddata]
         google.splice(index, 1)
         setcardata(google)
+        if (google.length === 0) {
+            Setbar(false)
+        }
     }
     const list = productcard.map((productcard, p) => (
         <div className=" xl:w-4/12 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full  px-3 " data-aos="flip-up" key={p} >
@@ -158,6 +161,4 @@ const Productsec = () => {
     );
 };
 
-export default Productsec;
-
-
+export default Productsec;    
